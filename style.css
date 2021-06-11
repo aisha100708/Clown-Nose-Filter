@@ -1,0 +1,40 @@
+body {
+    background-image: url("background.jpg");
+}
+.btn-success:hover {
+    background-color: red;
+    font-size: 21px !important;
+}
+button {
+    font-size: 18px !important;
+}
+.heading {
+    text-decoration: underline wavy rgb(255, 135, 155);
+    color: purple;
+}
+canvas {
+    display: block;
+    border: 1px blue solid;
+    margin-top: 30px;
+    animation: aishwarya 5s infinite;
+    animation: aishwarya1 3s infinite;
+}
+@keyframes aishwarya {
+    0% {
+        box-shadow: 0px 0px 30px yellow;
+    }
+    50% {
+        box-shadow: 0px 0px 30px palevioletred;
+    }
+    100% {
+        box-shadow: 0px 0px 30px springgreen;
+    }
+}
+@keyframes aishwarya1 {
+    from {
+        border: 1px blue solid;
+    }
+    to {
+        border: 1px black dashed;
+    }
+}
