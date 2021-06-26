@@ -9,32 +9,26 @@ button {
     font-size: 18px !important;
 }
 .heading {
-    text-decoration: underline wavy rgb(255, 135, 155);
+    /*text-decoration: underline wavy rgb(255, 135, 155);*/
     color: purple;
+    font-size: 25px;
+    font-weight: bold;
 }
+
 canvas {
     display: block;
-    border: 1px blue solid;
-    margin-top: 30px;
-    animation: aishwarya 5s infinite;
-    animation: aishwarya1 3s infinite;
+    margin-top: 15px;
+    /*animation: aishwarya 5s infinite;*/
+    animation: bhebfu1 3s infinite;
 }
-@keyframes aishwarya {
-    0% {
+
+@keyframes bhebfu1 {
+    from {
+        border: 2px blue solid;
         box-shadow: 0px 0px 30px yellow;
     }
-    50% {
-        box-shadow: 0px 0px 30px palevioletred;
-    }
-    100% {
-        box-shadow: 0px 0px 30px springgreen;
-    }
-}
-@keyframes aishwarya1 {
-    from {
-        border: 1px blue solid;
-    }
     to {
-        border: 1px black dashed;
+        border: 2px black dashed;
+        box-shadow: 0px 0px 30px palevioletred;
     }
 }
