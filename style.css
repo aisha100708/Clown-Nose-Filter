@@ -9,15 +9,12 @@ button {
     font-size: 18px !important;
 }
 .heading {
-    /*text-decoration: underline wavy rgb(255, 135, 155);*/
+    text-decoration: underline wavy rgb(255, 135, 155);
     color: purple;
-    font-size: 25px;
-    font-weight: bold;
 }
-
 canvas {
     display: block;
-    margin-top: 15px;
+    margin-top: 30px;
     /*animation: aishwarya 5s infinite;*/
     animation: bhebfu1 3s infinite;
 }
